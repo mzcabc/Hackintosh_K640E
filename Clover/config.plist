@@ -226,16 +226,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>HD4600_HDMI_Audio-1of2</string>
+				<string>10.11-BCM94352-5GHz-US-FCC-dv</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
-				PQsMAAA=
+				QYP8/3QsSA==
 				</data>
 				<key>Name</key>
-				<string>AppleHDAController</string>
+				<string>AirPortBrcm4360</string>
 				<key>Replace</key>
 				<data>
-				PQwMAAA=
+				ZscGVVPrKw==
 				</data>
 			</dict>
 			<dict>

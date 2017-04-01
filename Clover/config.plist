@@ -83,12 +83,7 @@
 			<key>DropOem</key>
 			<false/>
 			<key>Generate</key>
-			<dict>
-				<key>CStates</key>
-				<false/>
-				<key>PStates</key>
-				<false/>
-			</dict>
+			<false/>
 		</dict>
 	</dict>
 	<key>Boot</key>
@@ -99,14 +94,17 @@
 		<string>macOS</string>
 		<key>Legacy</key>
 		<string>PBR</string>
-		<key>Log</key>
-		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
 		<integer>3</integer>
 		<key>XMPDetection</key>
-		<string>NO</string>
+		<false/>
+	</dict>
+	<key>CPU</key>
+	<dict>
+		<key>UseARTFrequency</key>
+		<false/>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -141,8 +139,6 @@
 			<key>Inject</key>
 			<false/>
 		</dict>
-		<key>UseIntelHDMI</key>
-		<false/>
 	</dict>
 	<key>DisableDrivers</key>
 	<array>
@@ -152,8 +148,7 @@
 	<dict>
 		<key>Hide</key>
 		<array>
-			<string>Windows</string>
-			<string>\EFI\BOOT\BOOTX64.EFI</string>
+			<string>Recovery HD</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -169,7 +164,9 @@
 			<key>Entries</key>
 			<true/>
 			<key>Legacy</key>
-			<string>First</string>
+			<false/>
+			<key>Linux</key>
+			<false/>
 			<key>Tool</key>
 			<true/>
 		</dict>
@@ -213,6 +210,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>External icons patch</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				RXh0ZXJuYWw=

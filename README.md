@@ -9,3 +9,5 @@ RehabMan-FakePCIID-2017-0109
 RehabMan-IntelBacklight-2017-0226
 
 RehabMan-Battery-2016-1118
+
+VoodooHDA-289

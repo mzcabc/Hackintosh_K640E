@@ -47,13 +47,13 @@
 		<key>Components</key>
 		<dict>
 			<key>Banner</key>
-			<false/>
+			<true/>
 			<key>Functions</key>
 			<true/>
 			<key>Label</key>
-			<false/>
+			<true/>
 			<key>Revision</key>
-			<false/>
+			<true/>
 			<key>MenuTitle</key>
 			<true/>
 		</dict>

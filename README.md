@@ -1,13 +1,22 @@
 # Hackintosh_K640E
 
-Kexts
+* [x] macOS Catalina 10.15.4
+* [x] macOS Catalina 10.14
 
-SmartTouchpad v4.7 beta 5
+#### Usage
 
-RehabMan-FakePCIID-2017-0109
+- If you need touchpad, kext is in the folder `kexts/off`
 
-RehabMan-IntelBacklight-2017-0226
+#### Hardware
 
-RehabMan-Battery-2016-1118
+* [x] GPU acceleration (Intel)
+* [x] Ethernet
+* [x] Analog Audio
+* [x] Wifi/BT
 
-VoodooHDA-289
+#### Software
+
+* [x] iMessage
+* [x] Handoff, Continuity, Universal Clipboard
+* [x] Analog Audio
+* [x] VM software (Parallels)
